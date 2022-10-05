@@ -13,16 +13,40 @@
   background-color: pink;
 }
 
+.album-container .header {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+/* .header button {
+} */
+
+.album-container .albums {
+  padding: 20px;
+}
+
+.spot-footer-container {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgb(20, 25, 34);
+}
+
 /* ------ NAVBAR MOBILE SECTION */
 
 .nav-bar-left {
   background-color: blue;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  padding: 20px;
+  padding: 0px 20px;
   list-style: none;
 }
 
