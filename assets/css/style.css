@@ -11,6 +11,8 @@
 
 .album-container {
   background-color: pink;
+  height: 100vh;
+  overflow: auto;
 }
 
 .album-container .header {
@@ -29,7 +31,6 @@
 
 .album-container .albums {
   padding: 20px;
-
   width: 100%;
 }
 
