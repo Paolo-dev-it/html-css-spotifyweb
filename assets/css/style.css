@@ -170,6 +170,7 @@
   .navbar-logo {
     width: 100%;
     margin-right: 50px;
+    align-items: start;
   }
   .navbar-logo .logo-big {
     display: block;
@@ -207,21 +208,44 @@
 
   .list-nav-left-bottom img {
     width: 20%;
-    margin-bottom: 10px;
-    margin-right: 5px;
+    /* margin-bottom: 10px;
+    margin-right: 5px; */
   }
 
   .list-nav-left-bottom span {
     display: block;
+    margin-left: 5px;
   }
 
   .list-nav-left-bottom li {
     display: flex;
   }
 
+  .list-nav-left-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  /* .small-down {
+    width: 80%;
+    margin-bottom: 10px;
+  } */
+
+  .user img {
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+  }
+
   .recently-card {
     width: calc(100% / 2);
     padding: 3px;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
   }
 }
 
