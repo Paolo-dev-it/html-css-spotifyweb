@@ -31,11 +31,15 @@
   padding: 20px;
 }
 
-.spot-footer-container {
-  position: sticky;
-  bottom: 0;
-  z-index: 1;
-  background-color: rgb(20, 25, 34);
+/* ------ LISTA MENU CONTENUTO CENTRALE MOBILE */
+
+.list-album {
+  padding: 20px;
+  text-align: center;
+}
+
+.list-album li {
+  display: inline;
 }
 
 /* ------ NAVBAR MOBILE SECTION */
@@ -70,6 +74,15 @@
 
 .nav-left-bottom-section span {
   display: none;
+}
+
+/* ------ FOOTER SECTION ------ */
+
+.spot-footer-container {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgb(20, 25, 34);
 }
 
 /* ------ MEDIA QUERY SEZIONE CELLULARE M */
