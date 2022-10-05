@@ -1,1 +1,21 @@
+.container-all {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+}
 
+.nav-bar-left {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-nav-left-up span {
+  display: none;
+}
+
+.playlist h4,
+.icon-playlist,
+.list-nav-playlist {
+  display: none;
+}
