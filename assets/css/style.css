@@ -29,9 +29,11 @@
 
 .album-container .albums {
   padding: 20px;
+
+  width: 100%;
 }
 
-/* ------ LISTA MENU CONTENUTO CENTRALE MOBILE */
+/* ------ LISTA MENU CONTENUTO CENTRALE MOBILE ------ */
 
 .list-album {
   padding: 20px;
@@ -42,6 +44,28 @@
   display: inline;
 }
 
+/* ------ LISTA MENU CONTENUTO CENTRALE MOBILE ------ */
+
+.container-recently-card {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.recently-card {
+  width: calc(100% / 2);
+  padding: 3px;
+}
+
+.recently-card img {
+  width: 100%;
+}
+
+.container-for-you {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 /* ------ NAVBAR MOBILE SECTION */
 
 .nav-bar-left {
@@ -50,7 +74,6 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  padding: 0px 20px;
   list-style: none;
 }
 
@@ -116,6 +139,11 @@
   .nav-left-bottom-section span {
     display: block;
   }
+
+  .recently-card {
+    width: calc(100% / 2);
+    padding: 3px;
+  }
 }
 
 /* ------ MEDIA QUERY SEZIONE CELLULARE L */
@@ -150,11 +178,16 @@
   .nav-left-bottom-section span {
     display: block;
   }
+
+  .recently-card {
+    width: calc(100% / 4);
+    padding: 3px;
+  }
 }
 
 /* ------ MEDIA QUERY SEZIONE TABLET */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .nav-bar-left {
     text-align: left;
   }
@@ -183,7 +216,12 @@
   .nav-left-bottom-section span {
     display: block;
   }
-}
+
+  .recently-card {
+    width: calc(100% / 4);
+    padding: 3px;
+  }
+} */
 
 /* ------ MEDIA QUERY SEZIONE DESKTOP */
 
@@ -215,5 +253,10 @@
 
   .nav-left-bottom-section span {
     display: block;
+  }
+
+  .recently-card {
+    width: calc(100% / 6);
+    padding: 3px;
   }
 }
