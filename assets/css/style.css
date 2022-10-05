@@ -4,10 +4,20 @@
   border: 1px solid red;
 }
 
+/* ------ NAVBAR MOBILE SECTION */
+
 .nav-bar-left {
   background-color: blue;
+  height: 100vh;
+  width: 20%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.navbar-logo .logo-big {
+  display: none;
 }
 
 .list-nav-left-up span {
@@ -18,4 +28,125 @@
 .icon-playlist,
 .list-nav-playlist {
   display: none;
+}
+
+.nav-left-bottom-section span {
+  display: none;
+}
+
+/* ------ MEDIA QUERY SEZIONE CELLULARE M */
+
+@media screen and (min-width: 320px) {
+  .nav-bar-left {
+    text-align: left;
+  }
+  .navbar-logo .logo-big {
+    display: block;
+  }
+
+  .navbar-logo .logo-small {
+    display: none;
+  }
+
+  .list-nav-left-up span {
+    display: block;
+  }
+
+  .playlist h4,
+  .icon-playlist,
+  .list-nav-playlist {
+    display: block;
+  }
+
+  .nav-left-bottom-section span {
+    display: block;
+  }
+}
+
+/* ------ MEDIA QUERY SEZIONE CELLULARE L */
+
+@media screen and (min-width: 425px) {
+  .nav-bar-left {
+    text-align: left;
+  }
+
+  .navbar-logo .logo-big {
+    display: block;
+  }
+
+  .navbar-logo .logo-small {
+    display: none;
+  }
+
+  .list-nav-left-up span {
+    display: block;
+  }
+
+  .playlist h4,
+  .icon-playlist,
+  .list-nav-playlist {
+    display: block;
+  }
+
+  .nav-left-bottom-section span {
+    display: block;
+  }
+}
+
+/* ------ MEDIA QUERY SEZIONE TABLET */
+
+@media screen and (min-width: 768px) {
+  .nav-bar-left {
+    text-align: left;
+  }
+  .navbar-logo .logo-big {
+    display: block;
+  }
+
+  .navbar-logo .logo-small {
+    display: none;
+  }
+
+  .list-nav-left-up span {
+    display: block;
+  }
+
+  .playlist h4,
+  .icon-playlist,
+  .list-nav-playlist {
+    display: block;
+  }
+
+  .nav-left-bottom-section span {
+    display: block;
+  }
+}
+
+/* ------ MEDIA QUERY SEZIONE DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .nav-bar-left {
+    text-align: left;
+  }
+  .navbar-logo .logo-big {
+    display: block;
+  }
+
+  .navbar-logo .logo-small {
+    display: none;
+  }
+
+  .list-nav-left-up span {
+    display: block;
+  }
+
+  .playlist h4,
+  .icon-playlist,
+  .list-nav-playlist {
+    display: block;
+  }
+
+  .nav-left-bottom-section span {
+    display: block;
+  }
 }
