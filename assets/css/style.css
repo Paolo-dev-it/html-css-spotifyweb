@@ -121,6 +121,32 @@
   display: none;
 } */
 
+.list-nav-left-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.small-down {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.user img {
+  width: 65%;
+}
+
+.user div {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ------ FOOTER SECTION ------ */
 
 .spot-footer-container {
@@ -142,7 +168,8 @@
   }
 
   .navbar-logo {
-    width: 50%;
+    width: 100%;
+    margin-right: 50px;
   }
   .navbar-logo .logo-big {
     display: block;
@@ -163,8 +190,9 @@
   }
 
   .list-nav-left-up img {
-    width: 50%;
+    width: 20%;
     margin-bottom: 10px;
+    margin-right: 5px;
   }
 
   .list-nav-left-up span {
@@ -177,8 +205,18 @@
     display: block;
   }
 
-  .nav-left-bottom-section span {
+  .list-nav-left-bottom img {
+    width: 20%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+
+  .list-nav-left-bottom span {
     display: block;
+  }
+
+  .list-nav-left-bottom li {
+    display: flex;
   }
 
   .recently-card {
