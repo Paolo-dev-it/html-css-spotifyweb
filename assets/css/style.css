@@ -9,7 +9,7 @@
 .spot-content-container {
   display: flex;
   flex-direction: row-reverse;
-  height: 90%;
+  height: calc(100vh - 100px);
 }
 
 .album-container {
@@ -129,6 +129,7 @@
   list-style: none;
   align-items: center;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .navbar-logo {
@@ -159,6 +160,10 @@
 
 .list-nav-left-bottom li {
   list-style: none;
+}
+
+.list-nav-playlist {
+  overflow-x: auto;
 }
 
 .playlist h5,
@@ -205,29 +210,38 @@
 
 .spot-footer-container {
   background-color: #303030;
-  height: 10%;
+  height: 100px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
 }
 
 .content-footer-spot-left {
-  height: 100%;
+  height: 80%;
   width: 100%;
-  align-items: center;
+  display: flex;
 }
 
 .container-left {
   height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .sinister-img {
   display: flex;
-  height: 100%;
+  width: 100%;
   align-items: center;
+  vertical-align: middle;
 }
 
 .sinister-img img {
-  height: 70%;
+  height: 50px;
+  width: 50px;
   padding: 10px 2px;
 }
 
