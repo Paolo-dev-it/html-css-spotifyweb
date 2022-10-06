@@ -63,6 +63,31 @@
 
 .recently h2 {
   font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.for-you h2 {
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.for-you h5 {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.populars h2 {
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.populars h5 {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .recently-card {
   width: calc(100% / 2);
