@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .container-all {
   width: 100%;
   height: 100vh;
@@ -11,7 +13,7 @@
 }
 
 .album-container {
-  background-color: pink;
+  /* background-color: pink; */
   height: 100%;
   overflow: auto;
 }
@@ -44,6 +46,10 @@
 
 .list-album li {
   display: inline;
+  text-transform: uppercase;
+  margin: 0px 5px;
+  font-size: 0.6rem;
+  color: rgb(193, 192, 192);
 }
 
 /* ------  CONTENUTO CENTRALE MOBILE ------ */
@@ -54,6 +60,10 @@
   flex-wrap: wrap;
   text-align: center;
 }
+
+.recently h2 {
+  font-size: 1rem;
+}
 .recently-card {
   width: calc(100% / 2);
   padding: 3px;
@@ -61,6 +71,15 @@
 
 .recently-card img {
   width: 100%;
+}
+
+.recently-card h3 {
+  font-size: 0.8rem;
+}
+
+.recently-card h5 {
+  font-size: 0.6rem;
+  opacity: 0.5;
 }
 
 .img-circle img {
@@ -153,18 +172,15 @@
 /* ------ FOOTER SECTION ------ */
 
 .spot-footer-container {
-  background-color: rgb(36, 117, 71);
+  background-color: #303030;
   height: 10%;
-  z-index: 1;
   display: flex;
   justify-content: space-between;
-  /* position: fixed;
-  width: 100%; */
 }
 
 .content-footer-spot-left {
   height: 100%;
-  width: 32%;
+  width: 100%;
   align-items: center;
 }
 
@@ -191,6 +207,7 @@
   width: 100%;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .content-footer-spot-center ul {
@@ -239,6 +256,18 @@
   background-color: rgb(255, 255, 255);
 }
 
+.content-footer-spot-right {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+
+.content-footer-spot-right li {
+  list-style: none;
+  display: inline;
+}
+
 /* ------ MEDIA QUERY SEZIONE CELLULARE M */
 
 @media screen and (min-width: 320px) {
@@ -258,7 +287,7 @@
   .navbar-logo .logo-big {
     display: block;
     margin-bottom: 20px;
-    width: 100%;
+    width: 90%;
   }
 
   .navbar-logo .logo-small {
@@ -330,6 +359,19 @@
     display: flex;
     align-items: center;
   }
+
+  .sinister-img img {
+    height: 100%;
+    padding: 10px 2px;
+  }
+
+  .content-footer-spot-right {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
 }
 
 /* ------ MEDIA QUERY SEZIONE CELLULARE L */
@@ -368,6 +410,19 @@
   .recently-card {
     width: calc(100% / 4);
     padding: 3px;
+  }
+
+  .sinister-img img {
+    height: 100%;
+    padding: 10px 2px;
+  }
+
+  .content-footer-spot-right {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -441,8 +496,24 @@
     display: block;
   }
 
+  .list-album li {
+    font-size: 0.8rem;
+  }
+
   .recently-card {
     width: calc(100% / 6);
     padding: 3px;
+  }
+
+  .sinister-img img {
+    height: 100%;
+    padding: 10px 2px;
+  }
+
+  .content-footer-spot-right {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    display: flex;
   }
 }
