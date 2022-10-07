@@ -345,6 +345,15 @@ div h6:hover {
   background-color: rgb(255, 255, 255);
 }
 
+.time-player .bar:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.line-volume:hover {
+  background-color: greenyellow;
+}
+
 .content-footer-spot-right {
   align-items: center;
   text-align: center;
@@ -376,7 +385,7 @@ div h6:hover {
   .navbar-logo .logo-big {
     display: block;
     margin-bottom: 20px;
-    width: 90%;
+    width: 100%;
   }
 
   .navbar-logo .logo-small {
@@ -385,6 +394,11 @@ div h6:hover {
 
   .list-nav-left-up li {
     display: flex;
+    padding-left: 5px;
+  }
+
+  .list-nav-left-up li:first-child {
+    border-left: 2px solid greenyellow;
   }
 
   .playlist li {
