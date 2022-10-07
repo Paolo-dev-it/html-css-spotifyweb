@@ -116,13 +116,19 @@ button:hover {
   width: 100%;
 }
 
-.hover-card i {
-  display: none;
+.hover-card {
+  position: relative;
 }
 
-/* .hover-card:hover i {
+.hover-card i {
   display: block;
-}  */
+  position: absolute;
+  font-size: 4rem;
+}
+
+/* .hover-card i:hover {
+  display: block;
+} */
 
 .recently-card h3 {
   font-size: 0.8rem;
@@ -248,7 +254,7 @@ button:hover {
 }
 
 .content-footer-spot-left {
-  height: 80%;
+  height: 100%;
   width: 100%;
   display: flex;
 }
@@ -337,12 +343,14 @@ div h6:hover {
   height: 3px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
 }
 
 .time-player .bar {
   height: 3px;
   width: 50%;
   background-color: rgb(255, 255, 255);
+  position: relative;
 }
 
 .time-player .bar:hover {
@@ -364,6 +372,27 @@ div h6:hover {
 .content-footer-spot-right li {
   list-style: none;
   display: inline;
+}
+
+.content-footer-spot-center .fa-shuffle,
+.fa-rotate-right,
+.sec,
+.sec-1 {
+  display: none;
+}
+
+.content-footer-spot-right .fa-list,
+.fa-desktop {
+  display: none;
+}
+
+.content-footer-spot-right div {
+  height: 3px;
+  width: 40px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
 /* ------ MEDIA QUERY SEZIONE CELLULARE M */
@@ -503,7 +532,7 @@ div h6:hover {
     width: 90%;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
   }
 
@@ -603,6 +632,18 @@ div h6:hover {
 
   .divider {
     display: block;
+  }
+
+  .content-footer-spot-center .fa-shuffle,
+  .fa-rotate-right,
+  .sec,
+  .sec-1 {
+    display: inline-block;
+  }
+
+  .content-footer-spot-right .fa-list,
+  .fa-desktop {
+    display: inline-block;
   }
 }
 
