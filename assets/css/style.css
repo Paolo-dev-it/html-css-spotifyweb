@@ -650,6 +650,10 @@ div h6:hover {
   .fa-desktop {
     display: inline-block;
   }
+
+  .content-footer-spot-right li {
+    margin: 0px 15px;
+  }
 }
 
 /* ------ MEDIA QUERY SEZIONE TABLET */
@@ -693,6 +697,10 @@ div h6:hover {
   .recently-card {
     width: calc(100% / 4);
     padding: 3px;
+  }
+
+  .content-footer-spot-center li {
+    margin: 0px 20px;
   }
   .content-footer-spot-right {
     width: 100%;
