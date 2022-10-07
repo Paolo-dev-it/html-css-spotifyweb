@@ -121,14 +121,21 @@ button:hover {
 }
 
 .hover-card i {
-  display: block;
+  display: none;
   position: absolute;
-  font-size: 4rem;
+  font-size: 2.5rem;
+  top: 35%;
+  left: 40%;
+  color: white;
 }
 
-/* .hover-card i:hover {
+.recently-card .hover-card:hover i {
   display: block;
-} */
+}
+
+.recently-card .hover-card:hover img {
+  opacity: 0.5;
+}
 
 .recently-card h3 {
   font-size: 0.8rem;
@@ -453,8 +460,6 @@ div h6:hover {
 
   .list-nav-left-bottom img {
     width: 20%;
-    /* margin-bottom: 10px;
-    margin-right: 5px; */
   }
 
   .list-nav-left-bottom span {
