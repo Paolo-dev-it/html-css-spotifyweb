@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -20,7 +21,7 @@
     <div class="container-all">
       <!-- ------ CONTENITORE CONTENUTO ALBUM E MENU LATERALE E SUPERIORE ------ -->
       <div class="spot-content-container">
-        <!-- ------ SEZIONE ALBUM E CONTENUTO CENTRALE -->
+        <!-- ------ SEZIONE ALBUM E CONTENUTO CENTRALE ------ -->        
         <div class="album-container">
           <div class="header">
             <button>effettua l'upgrade</button>
@@ -42,7 +43,11 @@
               <h2>Recently played</h2>
               <div class="container-recently-card">
                 <div class="recently-card">
-                  <img src="./assets/img/metal_lifting.jpg" alt="" />
+                    <div class="hover-card">
+                       <i class="fa-regular fa-circle-play"></i>
+                        <img src="./assets/img/metal_lifting.jpg" alt="" />
+                    </div>
+
                   <div class="recently-artists">
                     <h3>Heavy Metal</h3>
                     <h5>Subtitle</h5>
@@ -79,7 +84,7 @@
               </div>
             </div>
             <div class="for-you">
-              <h2>Creato per John Doe</h2>
+              <h2>Creato per Paolo Nicoletti</h2>
               <h5>Più ascolti, più accurati saranno i tuoi suggerimenti</h5>
               <div class="container-for-you">
                 <div class="recently-card">
@@ -109,7 +114,7 @@
           </div>
         </div>
 
-        <!-- ------ SEZIONE MENU DI SINISTRA ------ -->
+        <!-- ------ SEZIONE MENù DI SINISTRA ------ -->
 
         <div class="nav-bar-left">
           <div class="navbar-logo">
@@ -166,19 +171,9 @@
             </li>
           </ul>
 
-          <!-- <div class="nav-left-bottom-section">
-            <div class="icon-nav-left-footer">
-              <img src="./assets/img/download.svg" alt="" />
-              <span>Installa App</span>
-            </div>
-            <div class="line-divider"></div>
-            <div class="icon-nav-left-footer">
-              <img src="./assets/img/profile.svg" alt="" />
-              <span>John Doe</span>
-            </div>
-          </div> -->
+
         </div>
-      </div>
+      </div> 
 
       <!-- ------ CONTENITORE FOOTER ------ -->
       <div class="spot-footer-container">
